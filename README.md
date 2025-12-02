@@ -1,4 +1,5 @@
 # ⏳ tiktoken
+cl100k_base = tiktoken.get_encoding("cl100k_base")
 
 tiktoken is a fast [BPE](https://en.wikipedia.org/wiki/Byte_pair_encoding) tokeniser for use with
 OpenAI's models.
